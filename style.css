@@ -1,0 +1,34 @@
+.outer,
+.middle,
+.inner1,
+.inner2 {
+  display: block;
+  width: 520px;
+  padding: 15px;
+  margin: 15px;
+  text-decoration: none;
+}
+.outer {
+  border: 1px solid red;
+  padding-right: 20px;
+  color: red;
+}
+.middle {
+  border: 1px solid green;
+  color: green;
+  width: 460px;
+}
+.inner1,
+.inner2 {
+  border: 1px solid purple;
+  color: purple;
+  width: 400px;
+}
+
+.container {
+  padding-top: 40px;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}

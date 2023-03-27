@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding Event Listeners</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="outer">
+    outer, once & none-once
+    <div class="middle" target="_blank">
+      middle, capture & none-capture
+      <a class="inner1" href="https://abmart0803.github.io/CSS-My-Site/" target="_blank">
+        inner1, passive & preventDefault(which is not allowed)
+      </a>
+      <a class="inner2" href="https://abmart0803.github.io/New-Popup-Window/" target="_blank">
+        inner2, none-passive & preventDefault(not open new page)
+      </a>
+    </div>
+  </div>
+  </div>
+  <script src="/script.js"></script>  
+</body>
+</html>
